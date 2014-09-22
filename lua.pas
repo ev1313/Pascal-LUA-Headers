@@ -1,6 +1,6 @@
 (******************************************************************************
  *                                                                            *
- *  File:        lua52.pas                                                    *
+ *  File:        lua.pas                                                      *
  *                                                                            *
  *  Authors:     TeCGraf           (C headers + actual Lua libraries)         *
  *               Lavergne Thomas   (original translation to Pascal)           *
@@ -88,7 +88,7 @@
 
 {$IFDEF FPC}{$MODE OBJFPC}{$H+}{$ENDIF}
 
-unit lua52;
+unit lua;
 
 interface
 
